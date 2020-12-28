@@ -17,7 +17,7 @@ app.use(
 
 app.use(bodyParser.json());
 
-const dbURL =  "mongodb://localhost:27017/mern-auth";
+const dbURL =  "mongodb+srv://biblio:biblio@bibliophilists.f4esq.mongodb.net/bibliophilists?retryWrites=true&w=majority";
 
 //connect to MongoDB
 mongoose
